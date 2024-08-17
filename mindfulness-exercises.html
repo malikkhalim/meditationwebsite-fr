@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness Exercises</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Meditation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guided-sessions.html">Guided Sessions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="breathing-exercises.html">Breathing Exercises</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mindfulness-exercises.html">Mindfulness Exercises</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Mindfulness Exercises</h1>
+            <p>Practice mindfulness with our guided exercises.</p>
+            <a href="#" class="btn btn-primary btn-lg">Start Now</a>
+        </div>
+    </section>
+
+    <!-- Exercise Categories Section -->
+    <section class="section text-center">
+        <div class="container">
+            <h2>Exercise Categories</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <!-- Replace the existing button section with this -->
+                        <div class="card-body">
+                            <h5 class="card-title">Breathing</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#breathingVideo">
+                                View Exercises
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="breathingVideo" tabindex="-1" role="dialog" aria-labelledby="breathingVideoLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="breathingVideoLabel">Breathing Exercise</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=acUZdGd_3Dg" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/body-scan.jpg" class="card-img-top" alt="Body Scan">
+                        <div class="card-body">
+                            <h5 class="card-title">Body Scan</h5>
+                            <a href="#" class="btn btn-primary">View Exercises</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/loving-kindness.jpg" class="card-img-top" alt="Loving Kindness">
+                        <div class="card-body">
+                            <h5 class="card-title">Loving Kindness</h5>
+                            <a href="#" class="btn btn-primary">View Exercises</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/walking.jpg" class="card-img-top" alt="Walking Meditation">
+                        <div class="card-body">
+                            <h5 class="card-title">Walking Meditation</h5>
+                            <a href="#" class="btn btn-primary">View Exercises</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meditation Website. All rights reserved.</p>
+            <a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Privacy Policy</a>
+            <div class="mt-3">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
